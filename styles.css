@@ -1,2 +1,40 @@
+/* General body styling */
+body {
+  background-color: #f4f4f4;
+  padding: 40px;
+  display: flex;
+  justify-content: center;
+}
 
-/* Your CSS Code here. */
+/* Table styling */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header row */
+th {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Table cells */
+td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #ddd;
+}
+
+/* Alternate row coloring */
+tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect */
+tr:hover {
+  background-color: #e0f7fa;
+}
