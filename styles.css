@@ -19,13 +19,13 @@ th {
   background-color: #4CAF50;
   color: white;
   padding: 10px;
-  text-align: center;
+  text-align: left;
 }
 
 /* Table cells */
 td {
   padding: 10px;
-  text-align: center;
+  text-align: left;
   border: 1px solid #ddd;
 }
 
